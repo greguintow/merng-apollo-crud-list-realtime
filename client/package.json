@@ -38,5 +38,13 @@
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-react-hooks": "^1.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "graphql": "^14.3.0",
+    "subscriptions-transport-ws": "^0.9.16"
   }
 }
