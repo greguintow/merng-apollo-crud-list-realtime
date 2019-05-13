@@ -8,11 +8,13 @@
     "apollo-link": "^1.2.11",
     "apollo-link-http": "^1.5.14",
     "apollo-link-ws": "^1.0.17",
+    "graphql": "^14.3.0",
     "graphql-tag": "^2.10.1",
     "react": "^16.8.6",
     "react-apollo": "^2.5.5",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "subscriptions-transport-ws": "^0.9.16"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,8 +45,6 @@
     "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.13.0",
-    "graphql": "^14.3.0",
-    "subscriptions-transport-ws": "^0.9.16"
+    "eslint-plugin-react": "^7.13.0"
   }
 }
