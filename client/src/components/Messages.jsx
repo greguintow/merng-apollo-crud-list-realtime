@@ -88,8 +88,15 @@ const Messages = ({ messages, subscribeToMore }) => {
 								variables={{ id }}
 							>
 								{removeMessage => (
-									// eslint-disable-next-line jsx-a11y/click-events-have-key-events
-									<b onClick={removeMessage} tabIndex="-1" role="button" style={{ cursor: 'pointer' }}>&times;</b>
+									<b
+										onClick={removeMessage}
+										tabIndex="0"
+										onKeyDown={e => e.keyCode === 13 && removeMessage()}
+										role="button"
+										style={{ cursor: 'pointer' }}
+									>
+										&times;
+									</b>
 								)}
 							</Mutation>
 						</td>
